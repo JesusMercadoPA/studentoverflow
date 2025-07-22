@@ -24,7 +24,7 @@ cd studentoverflow
 
 ---
 
-## 2. Crear entorno virtual e instalar dependencias
+### 2. Crear entorno virtual e instalar dependencias
 
 ```bash
 python -m venv venv
