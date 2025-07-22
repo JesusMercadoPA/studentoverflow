@@ -21,14 +21,14 @@ Permite que los usuarios se registren, inicien sesión, publiquen preguntas y re
 git clone https://github.com/TU-USUARIO/studentoverflow.git
 cd studentoverflow
 
-2. Crear entorno virtual e instalar dependencias
+### 2. Crear entorno virtual e instalar dependencias
 bash
 Copiar
 Editar
 python -m venv venv
 source venv/bin/activate       # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
-3. Configurar variables de entorno
+### 3. Configurar variables de entorno
 Crea un archivo .env en la raíz del proyecto con las claves de tu proyecto Supabase y la clave secreta para JWT:
 
 ini
@@ -37,7 +37,7 @@ Editar
 SUPABASE_URL=tu_url
 SUPABASE_KEY=tu_api_key
 JWT_SECRET=clave_secreta
-4. Ejecutar la aplicación
+### 4. Ejecutar la aplicación
 bash
 Copiar
 Editar
