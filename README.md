@@ -1,102 +1,58 @@
-# es una plataforma de preguntas y respuestas inspirada en StackOverflow, diseñada para estudiantes.  
+# StudentOverflow
 
-# Permite que los usuarios se registren, inicien sesión, publiquen preguntas y respondan las de otros usuarios.
+**StudentOverflow** es una plataforma de preguntas y respuestas inspirada en StackOverflow, diseñada para estudiantes.  
+Permite que los usuarios se registren, inicien sesión, publiquen preguntas y respondan las de otros usuarios.
 
-# 
+---
 
-# ---
+## 🚀 Tecnologías utilizadas
 
-# 
+- **[Reflex](https://reflex.dev/)** – Framework web en Python.
+- **[Supabase](https://supabase.com/)** – Base de datos y autenticación.
+- **[JWT (JSON Web Tokens)](https://jwt.io/)** – Para autenticación y autorización segura.
+- **Python 3.11+**
 
-# \## 🚀 Tecnologías utilizadas
+---
 
-# \- \*\*\[Reflex](https://reflex.dev/)\*\* – Framework web en Python.
+## ⚙️ Instalación y ejecución
 
-# \- \*\*\[Supabase](https://supabase.com/)\*\* – Base de datos y autenticación.
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/TU-USUARIO/studentoverflow.git
+cd studentoverflow
 
-# \- \*\*\[JWT (JSON Web Tokens)](https://jwt.io/)\*\* – Para autenticación y autorización segura.
+## 2. Crear entorno virtual e instalar dependencias
 
-# \- \*\*Python 3.11+\*\*
+```bash
+python -m venv venv
+source venv/bin/activate       # En Windows: venv\Scripts\activate
+pip install -r requirements.txt
 
-# 
+SUPABASE_URL=tu_url
+SUPABASE_KEY=tu_api_key
+JWT_SECRET=clave_secreta
+reflex run
+studentoverflow/
+│
+├── components/        # Componentes de interfaz (botones, layouts)
+├── models/            # Modelos de datos (Preguntas, Respuestas, Usuarios)
+├── pages/             # Páginas de la aplicación (home, login, signup)
+├── static/            # Archivos estáticos
+├── requirements.txt   # Dependencias del proyecto
+└── README.md          # Documentación principal
+## ✨ Funcionalidades
 
-# ---
+- Registro e inicio de sesión con autenticación JWT.
+- Persistencia de sesión.
+- Publicación y respuesta a preguntas.
+- Interfaz dinámica basada en el estado de sesión del usuario.
 
-# 
+## 📜 Licencia
 
-# \## ⚙️ Instalación y ejecución
+Este proyecto está bajo la licencia MIT.
 
-# 
+## 🔗 Enlace del repositorio
 
-# \### \*\*1. Clonar el repositorio\*\*
+https://github.com/TU-USUARIO/studentoverflow
 
-# ```bash
-
-# git clone https://github.com/TU-USUARIO/studentoverflow.git
-
-# cd studentoverflow
-
-# 2\. Crear entorno virtual e instalar dependencias
-
-# python -m venv venv
-
-# source venv/bin/activate       # En Windows: venv\\Scripts\\activate
-
-# pip install -r requirements.txt
-
-# 3\. Configurar variables de entorno
-
-# Crea un archivo .env en la raíz del proyecto con las claves de tu proyecto Supabase y la clave secreta para JWT:
-
-# SUPABASE\_URL=tu\_url
-
-# SUPABASE\_KEY=tu\_api\_key
-
-# JWT\_SECRET=clave\_secreta
-
-# 4\. Ejecutar la aplicación
-
-# reflex run
-
-# 📂 Estructura de carpetas
-
-# studentoverflow/
-
-# │
-
-# ├── components/        # Componentes de interfaz (botones, layouts)
-
-# ├── models/            # Modelos de datos (Preguntas, Respuestas, Usuarios)
-
-# ├── pages/             # Páginas de la aplicación (home, login, signup)
-
-# ├── static/            # Archivos estáticos
-
-# ├── requirements.txt   # Dependencias del proyecto
-
-# └── README.md          # Documentación principal
-
-# ✨ Funcionalidades
-
-# Registro e inicio de sesión con autenticación JWT.
-
-# 
-
-# Persistencia de sesión.
-
-# 
-
-# Publicación y respuesta a preguntas.
-
-# 
-
-# Interfaz dinámica basada en el estado de sesión del usuario.
-
-# 
-
-# 📜 Licencia
-
-# Este proyecto está bajo la licencia MIT.🔗 Enlace del repositorio
-
-# &nbsp;https://github.com/JesusMercadoPA/studentoverflow.git
 
