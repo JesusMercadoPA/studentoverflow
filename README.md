@@ -16,13 +16,13 @@ Permite que los usuarios se registren, inicien sesión, publiquen preguntas y re
 
 ## ⚙️ Instalación y ejecución
 
-## 1. Clonar el repositorio
+### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU-USUARIO/studentoverflow.git
-cd studentoverflow
--USUARIO/studentoverflow.git
-cd studentoverflow
+- **git clone https://github.com/TU-USUARIO/studentoverflow.git
+- **cd studentoverflow
+- **-USUARIO/studentoverflow.git
+- **cd studentoverflow
 
 2. Crear entorno virtual e instalar dependencias
 python -m venv venv
