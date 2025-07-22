@@ -21,3 +21,12 @@ Permite que los usuarios se registren, inicien sesión, publiquen preguntas y re
 ```bash
 git clone https://github.com/TU-USUARIO/studentoverflow.git
 cd studentoverflow
+
+---
+
+## 2. Crear entorno virtual e instalar dependencias
+
+```bash
+python -m venv venv
+source venv/bin/activate       # En Windows: venv\Scripts\activate
+pip install -r requirements.txt
