@@ -14,5 +14,10 @@ Permite que los usuarios se registren, inicien sesión, publiquen preguntas y re
 
 ---
 
-## ⚙️ Instalación y ejecución
+# ⚙️ Instalación y ejecución
 
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/TU-USUARIO/studentoverflow.git
+cd studentoverflow
