@@ -21,17 +21,31 @@ Permite que los usuarios se registren, inicien sesión, publiquen preguntas y re
 git clone https://github.com/TU-USUARIO/studentoverflow.git
 cd studentoverflow
 
-## 2. Crear entorno virtual e instalar dependencias
-
-```bash
+2. Crear entorno virtual e instalar dependencias
+bash
+Copiar
+Editar
 python -m venv venv
 source venv/bin/activate       # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
+3. Configurar variables de entorno
+Crea un archivo .env en la raíz del proyecto con las claves de tu proyecto Supabase y la clave secreta para JWT:
 
+ini
+Copiar
+Editar
 SUPABASE_URL=tu_url
 SUPABASE_KEY=tu_api_key
 JWT_SECRET=clave_secreta
+4. Ejecutar la aplicación
+bash
+Copiar
+Editar
 reflex run
+📂 Estructura de carpetas
+csharp
+Copiar
+Editar
 studentoverflow/
 │
 ├── components/        # Componentes de interfaz (botones, layouts)
@@ -40,19 +54,18 @@ studentoverflow/
 ├── static/            # Archivos estáticos
 ├── requirements.txt   # Dependencias del proyecto
 └── README.md          # Documentación principal
-## ✨ Funcionalidades
+✨ Funcionalidades
+Registro e inicio de sesión con autenticación JWT.
 
-- Registro e inicio de sesión con autenticación JWT.
-- Persistencia de sesión.
-- Publicación y respuesta a preguntas.
-- Interfaz dinámica basada en el estado de sesión del usuario.
+Persistencia de sesión.
 
-## 📜 Licencia
+Publicación y respuesta a preguntas.
 
+Interfaz dinámica basada en el estado de sesión del usuario.
+
+📜 Licencia
 Este proyecto está bajo la licencia MIT.
 
-## 🔗 Enlace del repositorio
-
+🔗 Enlace del repositorio
 https://github.com/TU-USUARIO/studentoverflow
-
 
